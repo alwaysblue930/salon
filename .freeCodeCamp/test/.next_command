@@ -191,3 +191,7 @@ pg_dump -cC inserts -U freecodecamp salon > salon.sql
 git remote add origin https://github.com/alwaysblue930/salon.git
 git remote set-url origin https://github.com/alwaysblue930/salon.git
 git add .
+git commit -m "initial commit"
+git push -u origin main
+pg_dump -cC --inserts -U freecodecamp salon > salon.sql
+git add .
